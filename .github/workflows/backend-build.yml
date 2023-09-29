@@ -1,6 +1,5 @@
 name: Build Backend CI
 
-
 on:
   push:
     branches: [ master ]
