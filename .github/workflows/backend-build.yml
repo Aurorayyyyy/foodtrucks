@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  BASE_IMG_NAME: ${{ github.repository }}
+  BASE_IMG_NAME: !Lower ${{ github.repository }}
 jobs:
   build:
     runs-on: ubuntu-latest
