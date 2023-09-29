@@ -5,6 +5,7 @@ FROM python:3.9
 ADD . /app
 WORKDIR /app
 
+
 # Install dependencies
 RUN pip install -r requirements.txt
 
